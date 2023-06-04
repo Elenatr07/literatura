@@ -1,0 +1,549 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+
+.container {
+    max-width: 1440px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    position: relative;
+
+}
+
+.general {
+    background-color: #070726;
+    max-width: 1440px;
+    height: 780px;
+    background-image: url(../img/feather.svg);
+    background-size: 1059px 402px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center center;
+}
+
+.slogan {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 47px;
+    line-height: 57px;
+    color: #FFFFFF;
+}
+
+.creatives {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 168.9%;
+    text-align: center;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    background: linear-gradient(99.94deg, #F73E94 10.94%, #A51883 30.21%, #5C4AA3 54.69%, #2599DB 73.44%, #22DCD9 96.35%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 3px 4px 18px rgba(20, 230, 220, 0.2), -5px -2px 13px rgba(224, 44, 134, 0.2);
+}
+
+.general_slogan {
+    width: 688px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 106px;
+}
+
+.about {
+    background: #0C0C2D;
+    max-width: 1440px;
+    width: 100%;
+    height: 838px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 0;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.about_block {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+
+}
+
+.about_info {
+    width: 500px;
+
+}
+
+.about_img {
+    /*margin-right: 90px;*/
+    align-items: center;
+    display: flex;
+
+
+}
+
+.txt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.span_txt {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    margin-top: 115px;
+    margin-bottom: 43px;
+}
+
+.link_btn {
+    display: block;
+    margin-top: 30px;
+    width: 140px;
+    height: 40px;
+
+}
+
+.link_contact-btn {
+    color: #FAF4F4;
+    padding: 9px 21px;
+    width: 134px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    height: 42px;
+    border-radius: 45px;
+    background: #0C0C2D;
+    border: 2px solid transparent;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.link_contact-btn::before {
+    background: linear-gradient(35deg, #F73E94, #22DCD9);
+    border-radius: 34px;
+    z-index: -2;
+    position: absolute;
+    content: "";
+    width: 142px;
+    height: 46px;
+    top: -3px;
+    left: -3px;
+}
+
+.roadmap {
+    background: url(../img/roadmap.svg);
+    max-width: 1440px;
+    width: 100%;
+    height: 1158px;
+    background-repeat: no-repeat;
+    background-color: #0C0C2D;
+    z-index: 0;
+    position: relative;
+    background-position: center center;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-size: 100vw 100vh;
+}
+
+.road_block_up,
+.road_block_down {
+    max-width: 500px;
+    width: 100%;
+}
+
+.road_block_up {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.road_block_down {
+    display: flex;
+    margin-right: auto;
+    margin-left: 0;
+    margin-top: 520px;
+
+}
+
+.contacts {
+    max-width: 1440px;
+    width: 100%;
+    height: 930px;
+    display: flex;
+    position: relative;
+    z-index: -3;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.footer {
+    max-width: 1440px;
+    width: 100%;
+    height: 329px;
+    background: #070726;
+    padding-right: 150px;
+    padding-left: 150px;
+
+}
+
+.footer_block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 91px;
+
+}
+
+.footer_img {
+    max-width: 500px;
+
+}
+
+.footer_logo {
+    display: flex;
+    margin: 0 auto;
+}
+
+.footer_contacts {
+    max-width: 190px;
+}
+
+.footer_slogan {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 28px;
+}
+
+.footer_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+}
+
+.footer_navigation_link,
+.footer_adress {
+    margin-top: 23px;
+}
+
+.footer_link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer_adress {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.footer_navigation {
+    display: block;
+}
+
+.copyright {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: end;
+    margin-right: 18px;
+}
+
+@media (max-width:1024px) {
+    .general {
+        background-size: 800px 611px;
+    }
+
+    .book_img {
+        width: 354px;
+        margin: 0 auto;
+    }
+
+    .about_block {
+        flex-direction: column;
+        width: 680px;
+        margin: 0 auto;
+    }
+
+    .about_info {
+        width: 680px;
+    }
+
+    .about_img {
+        position: absolute;
+        margin-top: 710px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center
+    }
+
+    .link_btn {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center
+    }
+
+    .about {
+        height: 950px;
+
+    }
+
+    .footer {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .general {
+        background-size: 600px 458px;
+    }
+
+    .about {
+        padding-left: 35px;
+        padding-right: 35px;
+        height: 1080px;
+    }
+
+    .about_info {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .about_img {
+        margin-top: 800px;
+    }
+
+    .about_block,
+    .road_block_down,
+    .road_block_up {
+        text-align: center;
+    }
+
+    .road_block_up,
+    .road_block_down {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .roadmap {
+        background: url(../img/roadmap_small.svg);
+        background-repeat: no-repeat;
+        background-color: #0C0C2D;
+        z-index: 0;
+        position: relative;
+        background-position: center center;
+        background-size: 100vw 100vh;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .footer_block {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    .footer {
+        height: 583px;
+    }
+
+    .footer_navigation {
+        display: none;
+    }
+
+    .footer_contacts {
+        margin-top: 74px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_adress {
+        line-height: 35px;
+    }
+
+    .copyright {
+        margin-top: 82px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 710px) {
+    .general {
+        background-size: 390px 298px;
+    }
+
+    .general_slogan {
+        width: 321px;
+    }
+
+    .slogan {
+        font-size: 37px;
+        line-height: 150%;
+    }
+
+    .creatives {
+        font-size: 46px;
+        line-height: 168.9%;
+    }
+
+    .about_block {
+        width: 321px;
+
+    }
+
+    .about_info {
+        width: 321px;
+    }
+
+    .about {
+        height: 1238px;
+    }
+
+    .about_img {
+        margin-top: 980px;
+    }
+
+    .road_block_down {
+        margin-top: 420px;
+    }
+
+    .footer {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+
+
+@media (max-width: 376px) {
+    .general {
+        background-size: 300px 229px;
+        height: 600px;
+    }
+
+    .general_slogan {
+        width: 300px;
+    }
+
+    .slogan {
+        font-size: 30px;
+        line-height: 100%;
+    }
+
+    .creatives {
+        font-size: 35px;
+        line-height: 140%;
+    }
+
+    .about_info {
+        width: 280px;
+    }
+
+    .about_block {
+        width: 280px;
+    }
+
+    .txt {
+        font-weight: 200;
+        line-height: 28px;
+    }
+
+    .about {
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 1300px;
+    }
+
+    .book_img {
+        width: 300px;
+    }
+
+    .about_img {
+        margin-top: 1050px;
+    }
+
+    .road_block_down {
+        margin-top: 360px;
+    }
+
+    .footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .footer_slogan {
+        text-align: center;
+    }
+
+}

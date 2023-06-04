@@ -1,0 +1,371 @@
+
+
+.form input.error{
+   
+    background: #F73E94;
+}
+#formname-error, #formemail-error {
+    color: #22DCD9;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+
+
+.contacts {
+    background: #0C0C2D;
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    max-height: 930px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 0;
+    
+
+}
+
+.contacts_block {
+    display: flex;
+    justify-content: space-between;
+    height: 760px;
+}
+
+.contacts_block_img {
+    max-width: 570px;
+    margin: 114px 0;
+    display: block;
+}
+
+
+.contact_text_block_ru {
+   
+    justify-content: center;
+    display: flex;
+    margin-left: 305px;
+    margin-top: 85px;
+    max-width: 885px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 612px;
+    
+}
+.form {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    max-width: 570px;
+}
+
+
+
+.text_field {
+    width: 500px;
+    height: 224px;
+    background: #070726;
+    border-radius: 30px;
+    padding-top: 14px;
+    margin-bottom: 49px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #DAE4DD;
+    padding-left: 32px;
+    
+}
+.send-form {
+    width: 161px;
+    height: 38px;
+    border-radius: 45px;
+    background-color: #000E32;
+    align-self: center;
+   
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: 0px;
+    cursor: pointer;
+    
+}
+
+.send-form::before {
+    background: linear-gradient(35deg, #F73E94, #22DCD9);
+    border-radius: 34px;
+    z-index: -2;
+    position: absolute;
+    content: "";
+    width: 166px;
+    height: 42px;
+    right: -3px;
+    top: -2px;
+}
+
+.title_address, .title_contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.25em;
+    color: #FFFFFF;
+    
+    
+}
+
+.title_address {
+    margin-top: 124px;
+    margin-bottom: 40px;
+}
+
+.title_contacts {
+    margin-top: 48px;
+    margin-bottom: 40px;
+}
+
+.title_form {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    margin-top: 45px;
+}
+.post_address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.address {
+    width: 287px;
+}
+.span_email {
+    color: #E9D758;
+}
+
+.status {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    width: 100%;
+    height: 10px;
+    text-align: center;
+    display: block;
+    position: relative;
+    color: #F73E94;
+    opacity: 0;
+    bottom: 25px;
+    
+    
+
+   
+}
+.send_status {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+
+input[type=text]::placeholder, input[type=email]::placeholder, textarea::placeholder {
+	font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #DAE4DD;
+    
+}
+
+input {
+    width: 500px;
+    height: 50px;
+    background: #070726;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #DAE4DD;
+    padding-left: 32px;
+    
+}
+
+textarea:hover{
+    border: 3px solid  #22DCD9;
+    box-shadow: 3px 3px 3px 0 #F73E94;
+}
+
+input[type=text]:hover{
+        border: 3px solid  #22DCD9;
+        box-shadow: 3px 3px 3px 0 #F73E94;
+
+}
+
+input[type=email]:hover{
+        border: 3px solid  #22DCD9;
+        box-shadow: 3px 3px 3px 0 #F73E94;
+}
+
+textarea:active{
+    border: 3px solid  #22DCD9;
+    box-shadow: 3px 3px 3px 0 #F73E94;
+}
+
+input[type=text]:active{
+        border: 3px solid  #22DCD9;
+        box-shadow: 3px 3px 3px 0 #F73E94;
+
+}
+
+input[type=email]:active{
+        border: 3px solid  #22DCD9;
+        box-shadow: 3px 3px 3px 0 #F73E94;
+}
+.typewriter {
+    max-width: 408px;
+    max-height: 391px;
+}
+
+@media (max-width:1024px) {
+    .contacts {
+        padding-left: 125px;
+        padding-right: 125px;
+    }
+    .contacts_block_img {
+        width: 400px;
+    }
+    form {
+        width: 380px;
+    }
+
+    .text_field {
+        width: 380px;
+    }
+  
+    input {
+        width: 380px;
+    }
+    .typewriter {
+    max-width: 320px;
+    max-height: 307px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    form {
+        width: 468px;
+    }
+    input {
+        width: 468px;
+    }
+    .text_field {
+        width: 468px;
+        height: 215px;
+    }
+    .contacts_block_img {
+        display: none;
+    }
+    .send_status {
+        width: 468px;
+    }
+    .contacts {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media (max-width: 710px) {
+    form {
+        width: 360px;
+    }
+    input {
+        width: 360px;
+    }
+    .text_field {
+        width: 360px;
+        height: 215px;
+    }
+  
+    .send_status {
+        width: 360px;
+    }
+    .contacts {
+    padding-left: 35px;
+    padding-right: 35px;
+    }
+}
+
+@media (max-width: 424px) {
+    form {
+        width: 305px;
+    }
+    input {
+        width: 305px;
+    }
+    .text_field {
+        width: 305px;
+        height: 215px;
+    }
+  
+    .send_status {
+        width: 305px;
+    }
+}
+
+@media (max-width: 375px) {
+    form {
+        width: 260px;
+    }
+    input {
+        width: 260px;
+    }
+    .text_field {
+        width: 260px;
+        height: 215px;
+    }
+  
+    .send_status {
+        width: 260px;
+    }
+}
