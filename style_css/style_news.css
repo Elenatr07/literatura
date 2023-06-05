@@ -94,9 +94,7 @@
         font-weight: 200;
         
     }
-    .general_news {
-        height: 600px;
-    }
+  
 }
 
 @media (max-width: 415px) {
@@ -104,7 +102,7 @@
         max-width: 300px ;
     }
 
-        .about_news {
+    .about_news {
         padding-left: 35px;
         padding-right: 35px;
       
