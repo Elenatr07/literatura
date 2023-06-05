@@ -8,19 +8,19 @@ html,
 body {
     margin: 0;
     padding: 0;
-}
-
-body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-
+    vertical-align: middle;
+    background-color: #070726;
 }
 
+
+
 .container {
-    max-width: 1440px;
+    max-width: 1448px;
     display: block;
-    margin: auto;
+    margin: 0 auto;
     width: 100%;
     position: relative;
 
@@ -35,6 +35,7 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     background-position: center center;
+    margin: 0 auto;
 }
 
 .slogan {
@@ -84,6 +85,7 @@ body {
     z-index: 0;
     padding-left: 150px;
     padding-right: 150px;
+    margin: 0 auto;
 }
 
 .about_block {
@@ -163,13 +165,13 @@ body {
 }
 
 .link_contact-btn::before {
-    background: linear-gradient(35deg, #F73E94, #22DCD9);
+    background: linear-gradient(75deg, rgba(247, 62, 148, 1), rgba(203, 50, 143, 1), rgba(151, 35, 138, 1), rgba(84, 86, 171, 1), rgba(33, 157, 222, 1), rgba(34, 220, 217, 1));
     border-radius: 34px;
     z-index: -2;
     position: absolute;
     content: "";
     width: 142px;
-    height: 46px;
+    height: 45px;
     top: -3px;
     left: -3px;
 }
@@ -186,7 +188,8 @@ body {
     background-position: center center;
     padding-left: 150px;
     padding-right: 150px;
-    background-size: 100vw 100vh;
+    margin: 0 auto;
+    
 }
 
 .road_block_up,
@@ -228,6 +231,7 @@ body {
     background: #070726;
     padding-right: 150px;
     padding-left: 150px;
+    margin: 0 auto;
 
 }
 

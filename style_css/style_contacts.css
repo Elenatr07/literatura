@@ -27,6 +27,7 @@
     flex-direction: column;
     position: relative;
     z-index: 0;
+    margin: 0 auto;
     
 
 }
@@ -114,14 +115,14 @@ form {
 }
 
 .send-form::before {
-    background: linear-gradient(35deg, #F73E94, #22DCD9);
+    background: linear-gradient(75deg, rgba(247, 62, 148, 1), rgba(203, 50, 143, 1), rgba(151, 35, 138, 1), rgba(84, 86, 171, 1), rgba(33, 157, 222, 1), rgba(34, 220, 217, 1));
     border-radius: 34px;
     z-index: -2;
     position: absolute;
     content: "";
-    width: 166px;
+    width: 164px;
     height: 42px;
-    right: -3px;
+    right: -1px;
     top: -2px;
 }
 

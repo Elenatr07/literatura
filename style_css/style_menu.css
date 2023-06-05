@@ -16,6 +16,8 @@
    display: flex;
    justify-content: space-between;
    background: #070726;
+   max-width: 1440px;
+   margin: 0 auto;
 }
 
 .header_logo {
@@ -75,13 +77,13 @@
 }
 
 .link_link::before {
-   background: linear-gradient(35deg, #F73E94, #22DCD9);
+   background: linear-gradient(75deg, rgba(247, 62, 148, 1), rgba(203, 50, 143, 1), rgba(151, 35, 138, 1), rgba(84, 86, 171, 1), rgba(33, 157, 222, 1), rgba(34, 220, 217, 1));
    border-radius: 34px;
    z-index: -2;
    position: absolute;
    content: "";
    width: 142px;
-   height: 46px;
+   height: 45px;
    right: -4px;
    top: -3px;
 
