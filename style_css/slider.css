@@ -82,6 +82,13 @@
   margin-right: -2.3em
 }
 
+.slider_img:hover {
+     border: 3px solid  #22DCD9;
+    box-shadow: 3px 3px 3px 0 #F73E94;
+    border-radius: 30px;
+}
+
+
 .slick-prev:before {
   background-image: url(../img/left_dark.svg);
   display: block;
