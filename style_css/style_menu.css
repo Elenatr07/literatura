@@ -26,14 +26,15 @@
    display: flex;
    justify-content: flex-start;
    margin-left: 60px;
-   background-image: var(--banner-logo);
-   background-repeat: no-repeat;
-   background-size: 151px 79px; 
-   margin-top: 5px;
-  
-  
+   
+   
+ }
 
-}
+ .logo {
+   width: 151px;
+   height: 79px;
+   margin-top: 5px;
+ }
 
 
 
@@ -266,8 +267,13 @@ ul {
    }
 
    .header_logo {
-      background-size: 211px 109px;
-      height: 135px; 
+     
+       height: 135px; 
+   }
+
+   .logo {
+       width: 211px;
+       height: 109px;
    }
 
    .hamb {

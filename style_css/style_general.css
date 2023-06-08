@@ -214,7 +214,7 @@ body {
 }
 
 .roadmap {
-    background: var(--banner-road);
+    background: url(/img/roadmap_light.svg);
     max-width: 1440px;
     width: 100%;
     height: 1158px;
@@ -288,11 +288,10 @@ body {
 .footer_logo {
     display: flex;
     margin: 0 auto;
-    background-image: var(--banner-logo);
-    background-repeat: no-repeat;
+   width: 212px;
+   height: 109px;
     background-size: 212px 109px;
-    height: 151px;
-    background-position: center 0;
+    
 }
 
 .footer_contacts {
