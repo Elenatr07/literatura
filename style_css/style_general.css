@@ -224,6 +224,7 @@ body {
     padding-left: 150px;
     padding-right: 150px;
     margin: 0 auto;
+    background-size: 100vw 100vh;
     
 }
 
@@ -442,7 +443,7 @@ body {
     }
 
     .roadmap {
-        background: url(../img/roadmap_small.svg);
+        background: url(/img/roadmap_small.svg);
         background-repeat: no-repeat;
         z-index: 0;
         position: relative;
