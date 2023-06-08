@@ -1,7 +1,7 @@
 
 
 .slider_container {
-  background: #070726;
+  background: var(--bg-dark) /* #070726*/;
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
@@ -46,7 +46,7 @@
   font-size: 18px;
   line-height: 200%;
   letter-spacing: 0.2em;
-  color: #FFFFFF;
+  color: var(--text-white) /*#FFFFFF*/;
   margin-top: 56px;
   margin-bottom: 16px;
 }
@@ -57,7 +57,7 @@
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
-  color: #FFFFFF;
+  color:var(--text-white)/* #FFFFFF*/;
   margin-bottom: 144px;
 }
 
@@ -68,7 +68,7 @@
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.3em;
-  color: #FFFFFF;
+  color:var(--text-white) /* #FFFFFF*/;
   text-align: center;
   padding-top: 118px;
   padding-bottom: 55px;

@@ -13,10 +13,44 @@ body {
     height: 100vh;
     overflow-x: hidden;
     vertical-align: middle;
-    background-color: #070726;
+    background-color: var(--bg-dark);
     outline: 0;
+    /*text colors */
+    --text-white: #000000; /*цвет текста для темного стиля*/
+    /*--text-dark: #000000; /*цвет текста для белого стиля*/
+    --text-field-dark: rgba(0, 0, 0, 0.51); /*цвет текстового поля для белого стиля*/
+   /* --text-field-light:#DAE4DD; /*цвет текстового поля для темной темы*/
+   --text-copyright: #000000;
+
+    /*background colors */
+   /* --bg-white:#FFFFFF; /*цвет фона и input для белого стиля*/
+    --bg-dark: #FFFFFF;; /*цвет фона и input для темного стиля*/
+    --bg-dark-light: #F9F9FC; /*цвет фона для темного стиля*/
+    /*--bg-light-grey:#F9F9FC; /*цвет фона для белого стиля*/
+    --banner-logo: url(/img/logo_light.svg);
+    --banner-road: url(/img/roadmap_light.svg);
+    
+
+
     
 }
+
+.dark {
+    --bg-dark: #070726;
+    --text-white: #FFFFFF;
+    --bg-dark-light: #0C0C2D;
+    --text-field-light:#DAE4DD;
+    --text-copyright:  rgba(255, 255, 255, 0.5);
+    --banner-logo: url(/img/logo_dark.svg);
+    --banner-road: url(/img/roadmap.svg);
+}
+
+/*.light {
+    --bg-white:#FFFFFF;
+    --text-dark: #000000;
+    --bg-light-grey:#F9F9FC;
+    --text-field-dark: rgba(0, 0, 0, 0.51);
+}*/
 
 
 
@@ -30,7 +64,7 @@ body {
 }
 
 .general {
-    background-color: #070726;
+    background-color: var(--bg-dark)/*#0707264*/;
     max-width: 1440px;
     height: 780px;
     background-image: url(../img/feather.svg);
@@ -47,7 +81,7 @@ body {
     font-weight: 300;
     font-size: 47px;
     line-height: 57px;
-    color: #FFFFFF;
+    color: var(--text-white)/* #FFFFFF*/;
 }
 
 .creatives {
@@ -78,7 +112,7 @@ body {
 }
 
 .about {
-    background: #0C0C2D;
+    background: var(--bg-dark-light)/* #0C0C2D*/;
     max-width: 1440px;
     width: 100%;
     height: 838px;
@@ -117,7 +151,7 @@ body {
     font-weight: 300;
     font-size: 15px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: var(--text-white)/* #FFFFFF*/;
     margin-bottom: 30px;
 }
 
@@ -135,7 +169,7 @@ body {
     line-height: 22px;
     text-align: center;
     letter-spacing: 0.3em;
-    color: #FFFFFF;
+    color: var(--text-white)/* #FFFFFF*/;
     margin-top: 115px;
     margin-bottom: 43px;
 }
@@ -149,7 +183,7 @@ body {
 }
 
 .link_contact-btn {
-    color: #FAF4F4;
+    color: var(--text-white) /* #FAF4F4*/;
     padding: 9px 21px;
     width: 134px;
     font-family: 'Montserrat';
@@ -160,7 +194,7 @@ body {
     text-align: center;
     height: 42px;
     border-radius: 45px;
-    background: #0C0C2D;
+    background: var(--bg-dark-light)/* #0C0C2D*/;
     border: 2px solid transparent;
     position: relative;
     vertical-align: middle;
@@ -180,12 +214,12 @@ body {
 }
 
 .roadmap {
-    background: url(../img/roadmap.svg);
+    background: var(--banner-road);
     max-width: 1440px;
     width: 100%;
     height: 1158px;
     background-repeat: no-repeat;
-    background-color: #0C0C2D;
+    background-color: var(--bg-dark-light) /*#0C0C2D*/;
     z-index: 0;
     position: relative;
     background-position: center center;
@@ -231,7 +265,7 @@ body {
     max-width: 1440px;
     width: 100%;
     height: 329px;
-    background: #070726;
+    background:var(--bg-dark) /* #070726*/;
     padding-right: 150px;
     padding-left: 150px;
     margin: 0 auto;
@@ -247,12 +281,18 @@ body {
 
 .footer_img {
     max-width: 500px;
+    
 
 }
 
 .footer_logo {
     display: flex;
     margin: 0 auto;
+    background-image: var(--banner-logo);
+    background-repeat: no-repeat;
+    background-size: 212px 109px;
+    height: 151px;
+    background-position: center 0;
 }
 
 .footer_contacts {
@@ -265,7 +305,7 @@ body {
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
-    color: #FFFFFF;
+    color: var(--text-white)/* #FFFFFF*/;
     margin-top: 28px;
 }
 
@@ -276,7 +316,7 @@ body {
     font-size: 15px;
     line-height: 18px;
     letter-spacing: 0.3em;
-    color: #FFFFFF;
+    color:var(--text-white) /* #FFFFFF*/;
 }
 
 .footer_navigation_link,
@@ -290,7 +330,7 @@ body {
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
-    color: #FFFFFF;
+    color: var(--text-white) /* #FFFFFF*/;
     cursor: pointer;
 }
 
@@ -300,7 +340,7 @@ body {
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
-    color: #FFFFFF;
+    color:var(--text-white) /* #FFFFFF*/;
 }
 
 .footer_navigation {
@@ -313,7 +353,7 @@ body {
     font-weight: 300;
     font-size: 12px;
     line-height: 15px;
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--text-copyright) /* rgba(255, 255, 255, 0.5)*/;
     display: flex;
     justify-content: end;
     margin-right: 18px;
@@ -407,7 +447,6 @@ body {
     .roadmap {
         background: url(../img/roadmap_small.svg);
         background-repeat: no-repeat;
-        background-color: #0C0C2D;
         z-index: 0;
         position: relative;
         background-position: center center;

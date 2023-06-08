@@ -24,7 +24,7 @@
 <!-- Navigation bar -->
         <header class="header_page">
             <div class="header_logo">
-                <img src="img/logo_dark.svg" class="logo" alt="logo">
+               
                 
             </div>
        
@@ -34,11 +34,11 @@
         <!-- Menu -->
             <nav class="nav">
                 <ul class="menu">
-                    <li  ><a href="#about" class="link">About</a> </li>
-                    <li class="link_products"><a href="#services" class="link">Value-Add Services</a> </li>
-                    <li ><a href="#roadmap" class="link">Roadmap</a> </li>
-                    <li ><a href="#news" class="link">News</a></li>
-                    <li class="lighting"><a href="#" class="link"><img src="img/lighting.svg" alt=""></a></li>
+                    <li id="id_link_about" ><a href="#about" class="link" >About</a> </li>
+                    <li class="link_products" id="id_link_products"><a href="#services" class="link" >Value-Add Services</a> </li>
+                    <li id="id_link_road"><a href="#roadmap" class="link" >Roadmap</a> </li>
+                    <li id="id_link_news"><a href="#news" class="link" >News</a></li>
+                    <li class="lighting" id="toggle" onclick="imagefun()"><a href="#" class="link" ><img src="img/moon.svg" alt="" id="lightiing" ></a></li>
                     <li class="menu_link_contact"><a href="#contact" class="link_link">Contact Us</a></li>
                 </ul>   
                 <div class="link_contact" ><a href="#contact" class="link_link">Contact Us</a></div>
@@ -127,7 +127,7 @@
             
                   <div>
                     <div class="slider_block">                                
-                       <a href="news1.html"><img src="img/Group 40065.svg"class="slider_img"></a>
+                       <a href="news1.html"><img src="img/Group_40080.svg"class="slider_img" id="news1"></a>
                       <h2 class="slider_header">SpectrumWise Literature Press Release</h2>
                       <p class="slider_txt">
                         “SpectrumWise Literature” is SpectrumWise’s newest venture; a project that looks to provide a one-stop solution for e-book publishing and sales, aimed at stimulating growth...</p>
@@ -135,7 +135,7 @@
                   </div>
                   <div>
                     <div class="slider_block" onclick="window.open('https://medium.com/@info_58265/the-common-problems-faced-by-writers-within-the-publishing-industry-879dbb217c9b','_ blank')">
-                      <img src="img/Group 40063.svg" class="slider_img">
+                      <img src="img/Group_40078.svg" class="slider_img" id="news2">
                       <h2 class="slider_header">The Common Problems Faced by Writers Within the Publishing Industry.</h2>
                       <p class="slider_txt">
                         In this new era of technological developments and the rise of digital media, books serve as a small oasis of knowledge, enigma...</p>
@@ -177,7 +177,7 @@
         <footer class="footer">
             <div class="footer_block">
                 <div class="footer_img">
-                    <img src="img/logo_dark.svg" alt="logo" class="footer_logo">
+                    <div class="footer_logo"></div>
                     <h3 class="footer_slogan">WE CREATE SOLUTIONS FOR CREATIVES</h3>
                 </div>
                 <div class="footer_navigation">
@@ -244,6 +244,7 @@
    <script src="scripts/style_menu.js"></script>
    <script src="scripts/script_showmore.js"></script>
     <script src="js/script.js"></script>
+    <script src="scripts/change_color.js"></script>
     
    
  

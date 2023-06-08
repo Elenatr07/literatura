@@ -15,9 +15,10 @@
 .header_page {
    display: flex;
    justify-content: space-between;
-   background: #070726;
+   background: var(--bg-dark) /* #070726*/;
    max-width: 1440px;
    margin: 0 auto;
+   height: 140px
 }
 
 .header_logo {
@@ -25,16 +26,16 @@
    display: flex;
    justify-content: flex-start;
    margin-left: 60px;
-}
-
-/* Logo */
-.logo {
-   display: inline-block;
+   background-image: var(--banner-logo);
+   background-repeat: no-repeat;
+   background-size: 151px 79px; 
    margin-top: 5px;
-   width: 151px;
-   height: 79px;
+  
+  
 
 }
+
+
 
 /*menu */
 
@@ -44,7 +45,7 @@
    font-weight: 300;
    font-size: 17px;
    line-height: 21px;
-   color: #FAF4F4;
+   color: var(--text-white) /* #FAF4F4*/;
    text-align: center;
    margin-right: 23px;
    margin-left: 23px;
@@ -56,7 +57,7 @@
 }
 
 .link_link {
-   color: #FAF4F4;
+   color: var(--text-white)/* #FAF4F4*/;
    padding: 9px 21px;
    width: 134px;
    font-family: 'Montserrat';
@@ -67,7 +68,7 @@
    text-align: center;
    height: 42px;
    border-radius: 45px;
-   background: #0C0C2D;
+   background: var(--bg-dark) /* #0C0C2D*/;
    border: 2px solid transparent;
    position: relative;
    vertical-align: middle;
@@ -102,16 +103,12 @@
    position: absolute;
 }
 
-.lighting {
-   position: absolute;
-   top: 80px;
-   display: none;
-}
+
 
 /* Nav menu */
 .nav {
 
-   background: #070726;
+   background: var(--bg-dark) /* #070726*/;
    overflow: hidden;
    right: 0;
    width: 264px;
@@ -166,7 +163,7 @@ ul {
    height: 5px;
    position: relative;
    width: 35px;
-   background: rgba(255, 255, 255, 0.52);
+   background: var(--text-white) /* rgba(255, 255, 255, 0.52)*/;
    transform: matrix(1, 0, 0, -1, 0, 0);
    border-radius: 10px;
 }
@@ -182,7 +179,7 @@ ul {
    position: absolute;
    transition: all .2s ease-out;
    width: 100%;
-   background: rgba(255, 255, 255, 0.52);
+   background: var(--text-white) /* rgba(255, 255, 255, 0.52)*/;
    transform: matrix(1, 0, 0, -1, 0, 0);
    border-radius: 10px;
 }
@@ -219,6 +216,24 @@ ul {
    top: 0;
 }
 
+#id_link_about {
+   order: 2;
+}
+
+#id_link_products {
+   order: 3;
+}
+#id_link_road {
+   order: 4;
+}
+
+#id_link_news {
+   order: 2;
+}
+
+#toggle {
+   order:1;
+}
 
 
 
@@ -250,9 +265,9 @@ ul {
       display: none;
    }
 
-   .logo {
-      width: 211px;
-      height: 109px;
+   .header_logo {
+      background-size: 211px 109px;
+      height: 135px; 
    }
 
    .hamb {
@@ -286,4 +301,26 @@ ul {
       position: relative;
       top: 0;
    }
+
+   #id_link_about {
+      order: 1;
+   }
+
+   #id_link_products {
+      order: 2;
+   }
+   #id_link_road {
+      order: 3;
+   }
+
+   #id_link_news {
+      order: 4;
+   }
+
+   #toggle {
+      order:5;
+   }
+
+
+
 }

@@ -1,5 +1,5 @@
 .services {
-    background: #070726;
+    background: var(--bg-dark) /* #070726*/;
     max-height: 4000px;
     max-width: 1440px;
     margin: 0 auto;
@@ -15,7 +15,7 @@
     line-height: 22px;
     text-align: center;
     letter-spacing: 0.3em;
-    color: #FFFFFF;
+    color: var(--text-white) /* #FFFFFF*/;
     padding-top: 116px;
     margin: 0 auto;
 }
@@ -38,7 +38,7 @@
     height: 398px;
     border-radius: 20px;
     background:
-        linear-gradient(#0C0C2D 0 0) padding-box,
+        linear-gradient(var(--bg-dark-light) /*#0C0C2D*/0 0) padding-box,
         linear-gradient(147.99deg, #CB328F 0%, #CB328F 20%, #97238A 40%, #4E4F99 60%, #219DDE 80%, #22DCD9 100%) border-box;
     padding: 10px;
     border: 1px solid transparent;
@@ -61,7 +61,7 @@
     width: 132px;
     height: 33px;
     border-radius: 45px;
-    background: #0C0C2D;
+    background: var(--bg-dark-light) /* #0C0C2D*/;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
@@ -73,7 +73,7 @@
     vertical-align: middle;
     display: table-cell;
     cursor: pointer;
-    color: #FFFFFF;
+    color: var(--text-white) /* #FFFFFF*/;
 
 }
 
@@ -98,7 +98,7 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 21px;
-    color: #FFFFFF;
+    color: var(--text-white) /* #FFFFFF*/;
     margin-top: 52px;
 }
 
@@ -109,7 +109,7 @@
     font-size: 15px;
     line-height: 30px;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--text-white) /* #FFFFFF*/;
 }
 
 .list_item_img {
