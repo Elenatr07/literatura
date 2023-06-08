@@ -7,7 +7,7 @@
 var elem = document.querySelector('#nav_shadow');
 var input = document.querySelector('#side-menu')
 input.addEventListener('click', function() {
-    elem.classList.toggle("nav_shadow");
+    elem.classList.toggle("shadow");
 })
 
 
