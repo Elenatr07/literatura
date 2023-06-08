@@ -443,12 +443,8 @@ body {
     }
 
     .roadmap {
-        background: url(/img/roadmap_small.svg);
-        background-repeat: no-repeat;
-        z-index: 0;
-        position: relative;
-        background-position: center center;
-        background-size: 100vw 100vh;
+   
+      
         padding-left: 35px;
         padding-right: 35px;
     }
@@ -522,6 +518,15 @@ body {
 
     .road_block_down {
         margin-top: 420px;
+    }
+    .roadmap {
+        background: url(/img/roadmap_small.svg);
+        background-repeat: no-repeat;
+        z-index: 0;
+        position: relative;
+        background-position: center center;
+        background-color: var(--bg-dark-light) /*#0C0C2D*/;
+        height: 1060px;
     }
 
     .footer {
