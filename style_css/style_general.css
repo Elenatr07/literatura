@@ -27,8 +27,7 @@ body {
     --bg-dark: #FFFFFF;; /*цвет фона и input для темного стиля*/
     --bg-dark-light: #F9F9FC; /*цвет фона для темного стиля*/
     /*--bg-light-grey:#F9F9FC; /*цвет фона для белого стиля*/
-    --banner-logo: url(/img/logo_light.svg);
-    --banner-road: url(/img/roadmap_light.svg);
+   
     
 
 
@@ -41,8 +40,7 @@ body {
     --bg-dark-light: #0C0C2D;
     --text-field-light:#DAE4DD;
     --text-copyright:  rgba(255, 255, 255, 0.5);
-    --banner-logo: url(/img/logo_dark.svg);
-    --banner-road: url(/img/roadmap.svg);
+ 
 }
 
 /*.light {
