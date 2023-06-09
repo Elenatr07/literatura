@@ -356,6 +356,13 @@ body {
     cursor: pointer;
 }
 
+.footer_link:hover {
+    background: linear-gradient(75deg, rgba(247, 62, 148, 1), rgba(203, 50, 143, 1), rgba(151, 35, 138, 1), rgba(84, 86, 171, 1), rgba(33, 157, 222, 1), rgba(34, 220, 217, 1));
+    -webkit-background-clip: text;
+    font-weight: 400;
+    -webkit-text-fill-color: transparent;
+}
+
 .footer_adress {
     font-family: 'Montserrat';
     font-style: normal;
