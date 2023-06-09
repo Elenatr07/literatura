@@ -6,7 +6,7 @@
    height: 100%;
    position: fixed;
    display: block;
-   overflow-y: auto;
+   
    
 }
 
@@ -38,7 +38,11 @@
    
  }
 
-
+.lighting {
+   background-image: var(--image-lighting);
+   background-repeat: no-repeat;
+   background-position: center center;
+}
 
 
 
@@ -93,6 +97,10 @@
    right: -4px;
    top: -3px;
 
+}
+
+.link_link:hover::before {
+   background: linear-gradient(75deg, rgba(84, 86, 171, 1), rgba(33, 157, 222, 1), rgba(34, 220, 217, 1), rgba(247, 62, 148, 1), rgba(203, 50, 143, 1), rgba(151, 35, 138, 1));
 }
 
 .link_contact {
@@ -296,7 +304,7 @@ ul {
    }
 
    .link {
-      margin-top: 0;
+      margin-top: 5px;
    }
 
    .link_contact {
@@ -305,7 +313,12 @@ ul {
 
    .lighting {
       position: relative;
-      top: 0;
+      top: 5px;
+      background-image: var(--image-lighting);
+      background-repeat: no-repeat;
+      margin-left: 23px;
+      background-size: 23px;
+      background-position: center 0;
    }
 
    #id_link_about {

@@ -30,6 +30,12 @@ body {
     /*--bg-light-grey:#F9F9FC; /*цвет фона для белого стиля*/
     --image-logo-light: url(../img/logo_light.svg);
     --image-news1: url(../img/Group_40073.svg);
+    --image-lighting: url(../img/moon.svg);
+    --image-news-1: url(../img/Group_40080.svg);
+    --image-news-2: url(../img/Group_40078.svg);
+    --rows-right: url(../img/right_light.svg);
+    --rows-left: url(../img/left_light.svg);
+    
    
     
 
@@ -45,6 +51,13 @@ body {
     --text-copyright:  rgba(255, 255, 255, 0.5);
     --image-logo-light: url(../img/logo_dark.svg);
     --image-news1: url(../img/Group_40072.svg);
+    --image-lighting: url(../img/lighting.svg);
+    --image-news-1: url(../img/Group_40077.svg);
+    --image-news-2: url(../img/Group_40066.svg);
+    --rows-right: url(../img/right_dark.svg);
+    --rows-left: url(../img/left_dark.svg);
+
+    
  
 }
 
@@ -214,6 +227,10 @@ body {
     height: 45px;
     top: -3px;
     left: -3px;
+}
+
+.link_contact-btn:hover::before {
+    background: linear-gradient(75deg, rgba(84, 86, 171, 1), rgba(33, 157, 222, 1), rgba(34, 220, 217, 1), rgba(247, 62, 148, 1), rgba(203, 50, 143, 1), rgba(151, 35, 138, 1));
 }
 
 .roadmap {
