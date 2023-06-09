@@ -28,15 +28,17 @@
    display: flex;
    justify-content: flex-start;
    margin-left: 60px;
+   background-image: var(--image-logo-light);
+   background-repeat: no-repeat;
    
+   background-size: 151px 79px ;
+   
+   height: 140px;
+   margin-top: 5px;
    
  }
 
- .logo {
-   width: 151px;
-   height: 79px;
-   margin-top: 5px;
- }
+
 
 
 
@@ -269,15 +271,11 @@ ul {
    }
 
    .header_logo {
-     
+      background-size: 211px 109px;
        height: 135px; 
    }
 
-   .logo {
-       width: 211px;
-       height: 109px;
-   }
-
+   
    .hamb {
       display: none;
    }

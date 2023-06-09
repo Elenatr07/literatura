@@ -25,9 +25,11 @@ body {
 
     /*background colors */
    /* --bg-white:#FFFFFF; /*цвет фона и input для белого стиля*/
-    --bg-dark: #FFFFFF;; /*цвет фона и input для темного стиля*/
+    --bg-dark: #FFFFFF; /*цвет фона и input для темного стиля*/
     --bg-dark-light: #F9F9FC; /*цвет фона для темного стиля*/
     /*--bg-light-grey:#F9F9FC; /*цвет фона для белого стиля*/
+    --image-logo-light: url(../img/logo_light.svg);
+    --image-news1: url(../img/Group_40073.svg);
    
     
 
@@ -41,6 +43,8 @@ body {
     --bg-dark-light: #0C0C2D;
     --text-field-light:#DAE4DD;
     --text-copyright:  rgba(255, 255, 255, 0.5);
+    --image-logo-light: url(../img/logo_dark.svg);
+    --image-news1: url(../img/Group_40072.svg);
  
 }
 
@@ -291,6 +295,8 @@ body {
    width: 212px;
    height: 109px;
     background-size: 212px 109px;
+    background-image: var(--image-logo-light);
+    background-repeat: no-repeat;
     
 }
 
