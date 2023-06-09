@@ -6,6 +6,8 @@
    height: 100%;
    position: fixed;
    display: block;
+   overflow-y: auto;
+   
 }
 
 
@@ -324,6 +326,10 @@ ul {
    }
 
    #toggle {
+      order:5;
+   }
+
+   #toggle1 {
       order:5;
    }
 

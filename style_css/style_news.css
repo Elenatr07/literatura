@@ -7,6 +7,10 @@
     
 }
 
+.link_to_index {
+    cursor: pointer;
+}
+
 .news_img {
     max-width:1110px ;
     height: 528px;
@@ -97,7 +101,7 @@
   
 }
 
-@media (max-width: 415px) {
+@media (max-width: 446px) {
     .news_img {
         max-width: 300px ;
     }

@@ -12,6 +12,7 @@ body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    
     vertical-align: middle;
     background-color: var(--bg-dark);
     outline: 0;
@@ -447,7 +448,7 @@ body {
 
     .roadmap {
    
-      
+        background-size:100% 100%;
         padding-left: 35px;
         padding-right: 35px;
     }
@@ -530,6 +531,8 @@ body {
         background-position: center center;
         background-color: var(--bg-dark-light) /*#0C0C2D*/;
         height: 1060px;
+        background-size:100% 100%;
+        
     }
 
     .footer {
