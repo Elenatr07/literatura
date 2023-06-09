@@ -104,6 +104,7 @@
     line-height: 21px;
     color: var(--text-white) /* #FFFFFF*/;
     margin-top: 52px;
+    margin-bottom: 16px;
 }
 
 .services_text {
