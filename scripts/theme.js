@@ -1,5 +1,5 @@
 function imagefun() {
-    var logo = document.getElementById('logo');
+   /* var logo = document.getElementById('logo');
     if (logo.src.match("img/logo_dark.svg")) {
         logo.src = "img/logo_light.svg";
        
@@ -31,7 +31,7 @@ function imagefun() {
         Image_Id1.src = "img/Group_40063.svg"
     }
 
-    
+    */
     
 
     var Image_Id2 = document.getElementById('lightiing');
