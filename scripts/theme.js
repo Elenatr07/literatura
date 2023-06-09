@@ -1,10 +1,11 @@
 function imagefun() {
     var logo = document.getElementById('logo');
-    if (logo.src.match("img/logo_light.svg")) {
-        logo.src = "img/logo_dark.svg";
+    if (logo.src.match("img/logo_dark.svg")) {
+        logo.src = "img/logo_light.svg";
+       
     }
     else {
-        logo.src = "img/logo_light.svg"
+        logo.src = "img/logo_dark.svg"
     }
 
     var logo = document.getElementById('footer_logo');
