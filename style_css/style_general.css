@@ -33,6 +33,7 @@ body {
     --image-lighting: url(../img/moon.svg);
     --image-news-1: url(../img/Group_40080.svg);
     --image-news-2: url(../img/Group_40078.svg);
+    --image-news-3: url(../img/Group_40089.svg);
     --rows-right: url(../img/right_light.svg);
     --rows-left: url(../img/left_light.svg);
     
@@ -54,8 +55,10 @@ body {
     --image-lighting: url(../img/lighting.svg);
     --image-news-1: url(../img/Group_40077.svg);
     --image-news-2: url(../img/Group_40066.svg);
+    --image-news-3: url(../img/Group_40088.svg);
     --rows-right: url(../img/right_dark.svg);
     --rows-left: url(../img/left_dark.svg);
+
 
     
  
@@ -442,6 +445,21 @@ body {
     }
 
 
+}
+
+@media(max-width:900px) {
+    .about {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .about_info {
+        width: 600px;
+    }
+
+    .general {
+        background-size: 700px 534px;
+    }
 }
 
 @media (max-width: 768px) {

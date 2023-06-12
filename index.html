@@ -142,7 +142,6 @@
       <div class="slider_container">
         <h2 class="container_header">News</h2>
         <section class="regular slider">
-
           <div>
             <div class="slider_block">
               <a href="news1.html" class="slider_img" id="news1"></a>
@@ -162,12 +161,17 @@
                 oasis of knowledge, enigma...</p>
             </div>
           </div>
-
-
-
-
-      </div>
-      </section>
+          <div>
+            <div class="slider_block"
+              onclick="window.open('https://medium.com/@info_58265/the-advantages-and-disadvantages-of-self-publishing-bde983bbcee8','_ blank')">
+              <div class="slider_img" id="news3"></div>
+              <h2 class="slider_header">The Advantages and Disadvantages of Self-Publishing</h2>
+              <p class="slider_txt">
+                Self-publishing is an alternative route for authors to get their stories published without using traditional book publishing methods.</p>
+            </div>
+          </div>
+        </section>
+    </div>
     </div>
     <div class="contacts" id="contact">
       <h3 class="title">Contact us</h3>
@@ -233,11 +237,14 @@
     $(document).on('ready', function () {
       $(".regular").slick({
         dots: true,
-        infinite: true,
+        infinite: false,
         slidesToShow: 2,
         slidesToScroll: 2,
         adaptiveHeight: true,
         variableWidth: true,
+        
+        
+       
 
 
         responsive: [
@@ -247,6 +254,7 @@
               slidesToShow: 1,
               slidesToScroll: 1,
               centerMode: true,
+              infinite: true,
 
             }
           },
@@ -257,6 +265,7 @@
               slidesToShow: 1,
               slidesToScroll: 1,
               centerMode: true,
+              infinite: true,
             }
           }
         ]
