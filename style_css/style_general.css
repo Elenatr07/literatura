@@ -30,6 +30,7 @@ body {
     /*--bg-light-grey:#F9F9FC; /*цвет фона для белого стиля*/
     --image-logo-light: url(../img/logo_light.svg);
     --image-news1: url(../img/Group_40073.svg);
+    --image-news4: url(../img/Group_40093.svg);
     --image-lighting: url(../img/moon.svg);
     --image-news-1: url(../img/Group_40080.svg);
     --image-news-2: url(../img/Group_40078.svg);
@@ -52,6 +53,7 @@ body {
     --text-copyright:  rgba(255, 255, 255, 0.5);
     --image-logo-light: url(../img/logo_dark.svg);
     --image-news1: url(../img/Group_40072.svg);
+    --image-news4: url(../img/Group_40092.svg);
     --image-lighting: url(../img/lighting.svg);
     --image-news-1: url(../img/Group_40077.svg);
     --image-news-2: url(../img/Group_40066.svg);
